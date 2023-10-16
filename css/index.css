@@ -27,7 +27,7 @@
 }
 
 .header__title {
-   padding-top: 160px;
+   padding-top: 30vh;
 }
 
 .header__text {
@@ -43,6 +43,7 @@
    font-size: 3.5rem;
    font-weight: 700;
 }
+
 .header__job {
    color: var(--text-title);
    font-weight: 500;
@@ -50,7 +51,6 @@
    margin-bottom: 2rem;
 }
 .header__contact {
-   display: flex;
    margin-left: 2px;
    gap: 2rem;
    font-size: 16px;
@@ -128,7 +128,7 @@
 
 .about__contacts {
    position: relative;
-   margin-bottom: 100px;
+   margin-bottom: 25%;
 }
 
 .about__contacts::after {
@@ -224,6 +224,7 @@
 
 .project__content {
    margin: 40px 0 80px;
+   align-items: center;
 }
 
 .project__img {
@@ -252,9 +253,6 @@
 .project__name {
    font-size: 1.75rem;
    line-height: 3rem;
-}
-
-.project__titles {
 }
 
 .project__titles p {

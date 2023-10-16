@@ -1,18 +1,107 @@
-/* Tablet - PC low resolution */
+/* Tablet  */
 @media (min-width: 740px) and (max-width: 1023px) {
+   html {
+      font-size: 80%;
+   }
+
+   .about__contacts::after {
+      top: 120%;
+   }
+
+   .about__img {
+      width: 200px;
+      height: 200px;
+   }
+
+   .about__contacts {
+      margin-bottom: 20%;
+   }
 }
 
-/* > PC low resolution */
-@media (min-width: 1024px) and (max-width: 1239px) {
-}
-
+/* Mobile */
 @media (max-width: 740px) {
    html {
-      font-size: 70%;
+      font-size: 80%;
    }
+
+   .heading {
+      text-align: center;
+      line-height: 1.25rem;
+   }
+
+   /* header */
+   .header__title {
+      flex-direction: column-reverse;
+      align-items: center;
+      padding-top: 15vh;
+      gap: 5vh;
+   }
+
    .header__text,
    .header__contact {
-      flex-direction: column;
       align-items: center;
+      justify-content: center;
+   }
+
+   .header__name {
+      font-size: 2.75rem;
+      font-weight: 700;
+   }
+
+   /* about */
+   .about__title,
+   .about__content {
+      text-align: center;
+      justify-content: center;
+   }
+
+   .about__name {
+      margin-top: 0;
+   }
+
+   .about__contacts::after {
+      top: 100%;
+   }
+
+   .about__contacts {
+      margin-bottom: 10%;
+      justify-content: center;
+      column-gap: 20px;
+   }
+
+   .about__contact {
+      margin-bottom: 12px;
+   }
+
+   .about__socials {
+      margin: 32px 28px;
+   }
+
+   .about__des {
+      font-size: 1;
+      line-height: 1.7rem;
+   }
+
+   /* edu */
+   .edu__content {
+      justify-content: center;
+   }
+
+   .edu__img {
+      height: 18vh;
+   }
+
+   .edu__content:nth-child(2) {
+      margin-top: 24px;
+   }
+
+   .edu__name {
+      margin-top: 12px;
+   }
+
+   /* project */
+   .project__content {
+      margin: 0 0 10%;
+      justify-content: center;
    }
 }
